@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&family=Pacifico&display=swap');
+
+.container {
+    width: 800px;
+    margin: 10px auto;
+}
+
+.main-block {
+    display: block;
+    background-image: url("geralt2.png");
+    background-size: 800px 800px;
+    width: 800px;
+    height: 800px;
+
+}
+
+.poem-block {
+    display: none;
+    background-image: url("geralt3.png");
+    background-size: 800px 800px;
+    width: 800px;
+    height: 800px;
+
+}
+
+h1 {
+    font-family: Pacifico, italic;
+    font-size: 60px;
+    text-align: center;
+}
+
+.main-block .text {
+    display: block;
+    font-family: Pacifico, italic;
+    font-size: 170%;
+    position: relative;
+    text-align: center ;
+    width: 300px;
+    left: 430px;
+    top: 90px;
+
+}
+
+.poem-block .text {
+    display: block;
+    font-family: Pacifico, italic;
+    font-size: 250%;
+    position: relative;
+    text-align: center ;
+    width: 400px;
+    left: 60px;
+    top: 170px;
+
+}
+
+.dialog-main {
+    display: block;
+    font-family: Pacifico, italic;
+    font-size: 130%;
+    position: relative;
+    text-align: center ;
+    width: 300px;
+    left: 430px;
+    top: 150px;
+}
+
+
+
+#input-name {
+    border: 4px solid black;
+    font-family: Pacifico, italic;
+    font-size: 130%;
+
+    width: 300px;
+    height: 50px;
+}
+
+
+
+#btn-write {
+    background: url("done.png") no-repeat center;
+    height: 60px;
+    width: 60px;
+    border: 0px;
+
+}
+
+.dialog-poem{
+    display: block;
+    position: relative;
+    top: 350px;
+    left: 100px;
+}
+
+#btn-new {
+    background: url("return.png") no-repeat center;
+    height: 60px;
+    width: 60px;
+    border: 0px;
+
+}
