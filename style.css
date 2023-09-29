@@ -7,7 +7,7 @@
 
 .main-block {
     display: block;
-    background-image: url("geralt2.png");
+    background-image: url("image/geralt2.png");
     background-size: 800px 800px;
     width: 800px;
     height: 800px;
@@ -16,7 +16,7 @@
 
 .poem-block {
     display: none;
-    background-image: url("geralt3.png");
+    background-image: url("image/geralt3.png");
     background-size: 800px 800px;
     width: 800px;
     height: 800px;
