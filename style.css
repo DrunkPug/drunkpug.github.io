@@ -78,7 +78,7 @@ h1 {
 
 
 #btn-write {
-    background: url("done.png") no-repeat center;
+    background: url("image/done.png") no-repeat center;
     height: 60px;
     width: 60px;
     border: 0px;
@@ -93,7 +93,7 @@ h1 {
 }
 
 #btn-new {
-    background: url("return.png") no-repeat center;
+    background: url("image/return.png") no-repeat center;
     height: 60px;
     width: 60px;
     border: 0px;
