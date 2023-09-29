@@ -1,6 +1,8 @@
 function writePoem () {
     let name = document.getElementById("input-name").value;
-    if ( name == "Геральт") { 
+    if ( (name == "Тема") || (name == "Тёма") || (name == "Артем") || (name == "Артём")){
+        document.querySelector(".poem-block").style.backgroundImage = "url('image/geralt1.png')";
+    } else if ( name == "Геральт") { 
         document.querySelector(".poem-block").style.backgroundImage = "url('image/geralt4.png')";
         document.getElementById("poem-text2").textContent = `Oh KURWA!`;
     } else if ( name != "") {
