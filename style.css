@@ -32,7 +32,7 @@ h1 {
 .main-block .text {
     display: block;
     font-family: Pacifico, italic;
-    font-size: 170%;
+    font-size: 130%;
     position: relative;
     text-align: center ;
     width: 300px;
@@ -44,7 +44,7 @@ h1 {
 .poem-block .text {
     display: block;
     font-family: Pacifico, italic;
-    font-size: 250%;
+    font-size: 170%;
     position: relative;
     text-align: center ;
     width: 400px;
